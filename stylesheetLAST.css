@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightgrey;
+}
+@font-face {
+	font-family: "kaushan";
+src: url("kaushan-script/KaushanScript-Regular.otf");
+}
+
+header{
+  width: 100%;
+  margin: auto;
+  background-color: #626060;
+  border-bottom: 2px solid #7D0000;
+}
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #626060;
+  border-top: 2px solid #7D0000;
+}
+h1{
+font-family: 'Indie Flower', cursive;
+font-size: 30px;
+color: #7D0000;
+margin-top: 40px;
+
+}
+h2{
+font-family: 'Indie Flower', cursive;
+font-size: 20px;
+color: #7D0000;
+}
+nav{
+  margin-top: 120px;
+}
+a{
+	text-decoration: none;
+	color: #424242;
+}
+a:hover{
+	text-decoration: underline;;
+	color: #7D0000;
+}
+.flex{
+	display: flex;
+	justify-content: space-around;
+}
+.text-center{
+	text-align: center;
+}
+.inline{
+	display: inline-block;
+justify-content: space-around;
+}
+.img-circle{
+	border-radius: 50%;
+}
+#img-profile{
+	border: 2px solid #7D0000;
+  margin-top: 5px;
+}
+li.navi{
+  border-right: 2px solid #7D0000;
+  padding-right: 10px;
+}
+li.navi:last-child{
+  border: none;
+}
+.box{
+  margin: 60px auto;
+  width: 80%;
+  margin-top: 150px;
+}
+h3.first-left{
+  position: relative;
+  animation-name: left;
+  animation-duration: 2s;
+}
+h3.second-right{
+  position: relative;
+  animation-name: right;
+  animation-duration: 2s;
+}
+h4{
+position: relative;
+animation-name: bottom;
+animation-duration: 2s;
+margin-left: 250px;
+}
+h3, h4{
+  font-family: 'Indie Flower', cursive;
+}
+
+@keyframes left{
+    from {right:1500px;}
+    to {right: 0}
+}
+@keyframes right{
+    from {left:1500px;}
+    to {left:0}
+}
+@keyframes bottom{
+    from {bottom:1500px;}
+    to {bottom:0}
+  }
+h5.title{
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  margin-left: 75px;
+  position: relative;
+  animation-name: right;
+  animation-duration: 2s;
+}
+.txt{
+  font-size: 18px;
+
+}
+li.arrange{
+  padding: 10px;
+  margin-left: 150px;;
+}
+.diplome{
+  margin: auto;
+  width: 60%;
+  border: 2px solid #7D0000;
+  position: relative;
+  animation-name: left;
+  animation-duration: 2s;
+}
