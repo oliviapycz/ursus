@@ -9,7 +9,10 @@
   </head>
   <body>
 
-    <?php include ("header.php"); ?>
+    <?php
+    $current_file ="Home";
+    include ("header.php");
+    ?>
 
 
     <main class="box text-center">

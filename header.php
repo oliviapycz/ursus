@@ -12,11 +12,11 @@
   <nav>
     <ul>
       <li class="inline navi">
-        <a href="LAST.html" class="info">Home</a>
+        <a href="LAST.php"  <?php if ($current_file == "Home") { echo 'class="lu"';} ?> >Home</a>
       </li>
 
       <li class="inline navi">
-        <a href="formationLAST.html" class="info">Formation</a>
+        <a href="formationLAST.php"  <?php if ($current_file == "Formation") { echo 'class="lu"';} ?> >Formation</a>
       </li>
 
       <li class="inline navi">

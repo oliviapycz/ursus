@@ -43,8 +43,12 @@ a{
 	color: #424242;
 }
 a:hover{
-	text-decoration: underline;;
+	text-decoration: underline;
 	color: #7D0000;
+}
+a.lu{
+  text-decoration: underline;
+  color: #7D0000
 }
 .flex{
 	display: flex;
